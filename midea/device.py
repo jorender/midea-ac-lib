@@ -70,9 +70,8 @@ class air_conditioning_device(device):
     class fan_speed_enum(Enum):
         Auto = 102
         High = 80
-        Medium = 60
-        Low = 40
-        Silent = 20
+        Medium = 50
+        Low = 30
 
         @staticmethod
         def list():
